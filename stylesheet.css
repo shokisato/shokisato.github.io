@@ -1,0 +1,61 @@
+body {
+  font-family:inherit;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.header{
+  background-image: url(file:///Users/S_Sato/Desktop/Main/Programing/html_portfolio/picture_orion_nubera.jpg);
+  background-size: cover;
+  color: rgb(100%, 100%, 100%);
+  font-size: 45px;
+}
+
+.header_left{
+  float: left;
+  font-size: 25px;
+}
+
+
+.header_left_logo{
+  width: 20px;
+  height: 20px;
+
+}
+
+.header_right{
+  text-align: right;
+  background-color: rgba(80%, 80%, 80%, 0.3);
+}
+
+.header_right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header_right a {
+  text-decoration: none;
+  background-color: rgba(40%, 40%, 40%, 0.6);
+  line-height: 80px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  transition: all 0.5s;
+}
+
+.main{
+  background-color: gray;
+}
+
+.footer{
+  background-image: url(file:///Users/S_Sato/Desktop/Main/Programing/html_portfolio/picture_orion_nubera.jpg);
+  background-size: cover;
+  color: rgb(100%, 100%, 100%);
+  font-size: 20px;
+}
+
+.footer_list li{
+}
